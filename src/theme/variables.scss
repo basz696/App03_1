@@ -1,0 +1,51 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-y1: #ffee00;
+	--ion-color-y1-rgb: 255,238,0;
+	--ion-color-y1-contrast: #000000;
+	--ion-color-y1-contrast-rgb: 0,0,0;
+	--ion-color-y1-shade: #e0d100;
+	--ion-color-y1-tint: #fff01a;
+}
+
+.ion-color-y1 {
+	--ion-color-base: var(--ion-color-y1);
+	--ion-color-base-rgb: var(--ion-color-y1-rgb);
+	--ion-color-contrast: var(--ion-color-y1-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-y1-contrast-rgb);
+	--ion-color-shade: var(--ion-color-y1-shade);
+	--ion-color-tint: var(--ion-color-y1-tint);
+}
+ion-badge {
+  --background: rgb(0, 0, 0);
+  --color: rgb(251, 255, 40);
+  --padding-end: 20px;
+  --padding-start: 20px;
+}
+ion-checkbox {
+  --size: 32px;
+  --checkbox-background-checked: #faed37;
+}
+
+ion-checkbox::part(container) {
+  border-radius: 6px;
+  border: 2px solid #685c5c;
+}
+:root {
+	--ion-color-y2: #e6258f;
+	--ion-color-y2-rgb: 255,238,0;
+	--ion-color-y2-contrast: #000000;
+	--ion-color-y2-contrast-rgb: 0,0,0;
+	--ion-color-y2-shade: #e0d100;
+	--ion-color-y2-tint: #fff01a;
+}
+
+.ion-color-y2 {
+	--ion-color-base: var(--ion-color-y2);
+	--ion-color-base-rgb: var(--ion-color-y2-rgb);
+	--ion-color-contrast: var(--ion-color-y2-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-y2-contrast-rgb);
+	--ion-color-shade: var(--ion-color-y2-shade);
+	--ion-color-tint: var(--ion-color-y2-tint);
+}
